@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: hello-gitops
-          image: rtakashdev/hello-gitops:latest
+          image: rtakashdev/hello-gitops:bebc0222141ec1090782e0cf7f205da140cbbcc1
           ports:
             - containerPort: 5000
           resources:
