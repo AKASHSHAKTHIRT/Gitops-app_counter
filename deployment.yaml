@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: hello-gitops
-          image: <dockerhub-user>/hello-gitops:latest
+          image: rtakashdev/hello-gitops:latest
           ports:
             - containerPort: 5000
           resources:
